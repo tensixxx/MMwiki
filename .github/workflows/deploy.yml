@@ -6,12 +6,20 @@ on:
       - main
 
 permissions:
-  contents: write    # 🔑 允许创建 gh-pages 分支
+  contents: write        # ✅ 允许写入 gh-pages 分支
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -29,14 +37,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build site 🔧
+      - name: Build Quartz site 🔧
         run: pnpm run build
 
-      - name: Deploy to GitHub Pages 🚀
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact 📦
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./dist
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          # ⚠️ Quartz 可能输出在 dist 或 public，请确认后调整
+          path: ./dist
+
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
