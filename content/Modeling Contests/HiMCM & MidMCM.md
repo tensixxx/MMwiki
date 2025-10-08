@@ -1,6 +1,6 @@
 COMAP'S **High School Mathematical Contest in Modeling (HiMCM)** and **Middle Mathematical Contest in Modeling (MidMCM)** are international contests designed to provide **high school and middle school/level students** with the opportunity to work as team members to engage and improve their modeling, problem solving, and writing skills. Contest problems are accessible using the mathematics taught at the respective levels of the contests. 
 
-**Official Website**: https://www.comap.com/contests/himcm-midmcm
+**Official Website**: https://www.comap.com/contests/himcm-midmcm 
 **Team Members**: Maximum four students currently enrolled in the same school
 
 ### Previous Problems

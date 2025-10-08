@@ -105,9 +105,3 @@ Thus,
 $$
 D \leq c_{max} \leq d_{max}
 $$If $|D - d_{max}|$ is too large, Chebyshev Approximation Criterion will be better than Least Squares Criterion. 
-
-## Applying the Least-Squares Criterion
-### Fitting a Straight Line
-
-### Fitting a Power Curve
-
