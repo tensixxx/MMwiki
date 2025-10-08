@@ -1,8 +1,8 @@
-## ---
+---
 
-## title: Welcome to Mathematical Modeling Wiki
+title: Welcome to Mathematical Modeling Wiki
 
-## ---
+---
 
 
 
