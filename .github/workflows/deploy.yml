@@ -1,4 +1,4 @@
-name: Deploy Quartz site to GitHub Pages
+name: Deploy Quartz site (classic gh-pages)
 
 on:
   push:
@@ -6,28 +6,19 @@ on:
       - main
 
 permissions:
-  contents: write        # ✅ 允许写入 gh-pages 分支
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  contents: write   # ✅ 必须有写权限才能创建分支
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Use Node.js v22
+      - name: Set up Node.js 22
         uses: actions/setup-node@v3
         with:
-          node-version: '22'
+          node-version: 22
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -37,15 +28,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build Quartz site 🔧
+      - name: Build site 🔧
         run: pnpm run build
 
-      - name: Upload artifact 📦
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to gh-pages 🚀
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # ⚠️ Quartz 可能输出在 dist 或 public，请确认后调整
-          path: ./dist
-
-      - name: Deploy to GitHub Pages 🚀
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist   # 如果 Quartz 输出在 public，就改成 ./public
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
