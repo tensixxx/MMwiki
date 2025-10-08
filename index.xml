@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Concept/Model-Fitting</link>
     <guid>https://quartz.jzhao.xyz/Concept/Model-Fitting</guid>
     <description><![CDATA[ Some cases are too complex to describle with mathmatical formulas, so we need to analyze data points. ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>Modeling Change</title>
     <link>https://quartz.jzhao.xyz/Concept/Modeling-Change</link>
     <guid>https://quartz.jzhao.xyz/Concept/Modeling-Change</guid>
     <description><![CDATA[ Introduction A mathematical model is an idealization of the real-world phenomenon, which will never be completely accurate. ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>The Modeling Process, Proportionality, and Geometric Similarity</title>
     <link>https://quartz.jzhao.xyz/Concept/The-Modeling-Process,-Proportionality,-and-Geometric-Similarity</link>
     <guid>https://quartz.jzhao.xyz/Concept/The-Modeling-Process,-Proportionality,-and-Geometric-Similarity</guid>
     <description><![CDATA[ Modeling Procedure Observe real-world behavior and simplify factors Conjecture relationships among factors and create rough model Use mathmatical analysis to conclude the model Interpret mathematical conclusions in terms of the real-world problem Conclusions pertain only to the model not real-world ... ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>HiMCM &amp; MidMCM</title>
     <link>https://quartz.jzhao.xyz/Modeling-Contests/HiMCM--and--MidMCM</link>
     <guid>https://quartz.jzhao.xyz/Modeling-Contests/HiMCM--and--MidMCM</guid>
     <description><![CDATA[ COMAP’S High School Mathematical Contest in Modeling (HiMCM) and Middle Mathematical Contest in Modeling (MidMCM) are international contests designed to provide high school and middle school/level students with the opportunity to work as team members to engage and improve their modeling, problem sol... ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>MCM &amp; ICM</title>
     <link>https://quartz.jzhao.xyz/Modeling-Contests/MCM--and--ICM</link>
     <guid>https://quartz.jzhao.xyz/Modeling-Contests/MCM--and--ICM</guid>
     <description><![CDATA[ COMAP’s Mathematical Contest in Modeling (MCM) and Interdisciplinary Contest in Modeling (ICM) are international contests for high school students and college undergraduates. ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>Experimental Modeling</title>
     <link>https://quartz.jzhao.xyz/Modeling-Methods/Experimental-Modeling</link>
     <guid>https://quartz.jzhao.xyz/Modeling-Methods/Experimental-Modeling</guid>
     <description><![CDATA[ One-Term Models A One-Term Model describle the quantity changes over time using a single mathmatical term or expression. ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>Game Theory</title>
     <link>https://quartz.jzhao.xyz/Modeling-Methods/Game-Theory</link>
     <guid>https://quartz.jzhao.xyz/Modeling-Methods/Game-Theory</guid>
     <description><![CDATA[ Outcome depends on only one player is called decision theory. Outcome depends on two or more players is called game theory. ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>Modeling Using Graph Theory</title>
     <link>https://quartz.jzhao.xyz/Modeling-Methods/Modeling-Using-Graph-Theory</link>
     <guid>https://quartz.jzhao.xyz/Modeling-Methods/Modeling-Using-Graph-Theory</guid>
     <description><![CDATA[ The Seven Bridges of Königsberg The Seven Bridges of Königsberg is a famous historical problem, posed in the city of Königsberg (now Kaliningrad, Russia). ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>Modeling with Decision Theory</title>
     <link>https://quartz.jzhao.xyz/Modeling-Methods/Modeling-with-Decision-Theory</link>
     <guid>https://quartz.jzhao.xyz/Modeling-Methods/Modeling-with-Decision-Theory</guid>
     <description><![CDATA[ Probability and Expected Value \text{probability of an event = } \frac {\text{favorable outcomes}} {\text{total outcomes}} Weighted Average The formula of expected value is: E = w_1 p_1 + w_2 p_2 + \cdots + w_n p_n or E = \sum_{i=1}^{n} w_i p_i where w_i is the payoff of each outcome, p_i (0 \leq p_... ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item><item>
     <title>Optimization of Discrete Models</title>
     <link>https://quartz.jzhao.xyz/Modeling-Methods/Optimization-of-Discrete-Models</link>
     <guid>https://quartz.jzhao.xyz/Modeling-Methods/Optimization-of-Discrete-Models</guid>
     <description><![CDATA[ The basic model is: \text{Optimize } f_j(\mathbf{X}) \quad \text{for } j \in J \text{subject to } \quad g_i(\mathbf{X}) \begin{cases} \geq b_i \\ = b_i \\ \leq b_i \end{cases} \quad \text{for all } i \in I In the formula, to optimize means to maximize or minimize. ]]></description>
-    <pubDate>Wed, 08 Oct 2025 03:20:51 GMT</pubDate>
+    <pubDate>Wed, 08 Oct 2025 03:29:28 GMT</pubDate>
   </item>
     </channel>
   </rss>
